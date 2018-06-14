@@ -21,7 +21,7 @@ var solve = function(A){
       highestNumberPos = j;
     }
   }
-  
+
   if ((parseFloat(A[numbers[0]]) + parseFloat(A[numbers[1]]) + parseFloat(A[numbers[2]]) > 1) &&
       (parseFloat(A[numbers[0]]) + parseFloat(A[numbers[1]]) + parseFloat(A[numbers[2]]) < 2)) {
 
