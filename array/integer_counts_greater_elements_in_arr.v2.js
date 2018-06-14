@@ -3,7 +3,7 @@
 
 //param A : array of integers
 //return an integer
-solve : function(A){
+var solve = function(A){
   if (!A || !A.length) {
     return null;
   }
