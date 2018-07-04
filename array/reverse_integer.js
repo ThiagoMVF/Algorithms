@@ -20,7 +20,7 @@
 
 //param A : integer
 //return an integer
-reverse = function(A){
+reverse = function(A) {
   var arrayRep = A + '';
   var signal = true;
   if (A < 0) {
